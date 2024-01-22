@@ -1,0 +1,13 @@
+List of custom added rules: 
+Rule no. 0.0 --> Base tile for each player is treated like a safezone there for no one can 
+0.1 --> There is always a minimum of 2 safezone tiles, additional tiles are based on number of participating players eg. 3 players = 3 safe tiles in total
+0.2 --> As of yet pawns cant be moved in home, they are stucked to the position they landed on when they got there
+0.3 --> If player attempts to type in too high of a number or other type except whole positive number, error message will be displayed and he will be asked to type in correct number or type again until he does that.
+0.4 --> For input greater than 5, 4 Player game will be assumed
+For all rules please press 5. Below are described individual game options.
+Type 5 to display all rules.
+Type 0 for AI vs AI game.
+Type 1 for Players vs AI game.
+Type 2 for 2 Player game.
+Type 3 for for 3 Player game.
+Type 4 for for 4 Player game.

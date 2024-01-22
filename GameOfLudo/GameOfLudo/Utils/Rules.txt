@@ -1,0 +1,46 @@
+List of all rules!
+1. Game goals and ending conditions are discribed below:
+1.0 -->  There are up to 44 tiles in total, 40 tiles + 4 home tiles
+1.1 -->  4 home tiles are unique to each player and only them can move on to these tiles, these tiles are represented by --> D <--, --> X <-- just represents the cetnre of the game board and thus is not a tile 
+1.2 -->  for each home tile there can only be 1 pawn
+1.3 -->  The goal of the game is to get all 4 of your pawns to each of the home tiles, first player to do this is the winner, game ends after there is just 1 player left that did not get all of his pawns to the home tiles
+2. Move Mechanics are decribed below: 
+2.0 -->  Players alternate turns in A -> B -> C -> F order
+2.1 -->  Player can roll number rangeing from 1 up to 6
+2.2 -->  Player A always starts first, players can decide who wants to be player A.
+2.3 -->  Pawns are moving the amount of tiles equal to the roll
+2.4 -->	Panws move to the left of the player 
+3. Roll mechanics are decribed below: 
+3.1 -->  To enter a pawn into play to its base tile, a player must roll a 6
+3.2 -->  1st pawn for each player is added to the game automatically at the begining no need to rol 6
+3.3 -->  Upon rolling 6 player can make 1 additional roll
+3.3.5 -->  WARNING: rolls do not stuck, player will not get any additional rolls this round after rolling 6 for a 2nd time
+3.4 -->  Upon rolling 6 and placing additional pawn in to the game this roll is consumed and player can no longer move a different pawn for this roll nor can he move the new added pawn player can still move
+4. Pawn mechanic are described below: 
+4.0 -->  Player can have a maximum of 4 pawns total in game, after this no additional pawns can be added when rolling 6
+4.1 -->  Upon rolling 6 player can move with up to 2 pawns, both rolls can be added to gether to move 1 pawn or 2 separate pawns. WARNING: moveing the amount rolled needs to be done in order, eg. upon rolling 6 and 3, firstly player needs to move pawn 6 tiles and then can move the 2nd amout rolled!
+4.2 -->  Upon encountering enemy players pawn on the same tile, the player who is 2nd to move on the tile is kicking away the enemy players pawn
+4.3 --> Rule 4.2 does only apply if there is 1 pawn total  and tile is not a safe zone
+4.4 -->  after pawn getting kicked out of the game player cant move this pawn again
+4.5 -->  kicked pawn needs to be placed in the game again through rolling 6 and placing him on the base tile of that player
+5. Special tiles are described below: 
+5.0 --> Base tile: is the starting tile for each player, each player has its own starting tile, this is the tile where you can see your pawn at the begining of the game, this is also safe tile where no pawn kicking out can occure
+5.1 --> Home tile D: these tiles are represented as D and are the ones tahat player needs to occupy with their pawns in order to finish the game
+5.1.5 --> No other player can move to these tile, these tiles are the tiles
+5.3 --> If only last pawn is left and 2 rolls were done and it can move on home tile with just the 1 of the roles then it is possible to skip 2 other roll and perform only this one
+6. Illegal moves are described below: 
+6.0 --> it is not allowed and thus not possible to move your pawn more or less tiles then the amount rolled
+6.1 --> Player cant move with pawn that is not currently in game or more precisely on board
+6.2 --> exception to Rule no. 6.1 if player rolled 6 it is possible to place pawn that is not currently located on the board on the board and then moving with it the 2nd amount rolled.
+6.3 --> If the amount of tiles to move is higher than 44 pawn cant be moved and if possible player must choose different pawn to move with, if no pawns can move round for this player is over and the continues without him moving any of his pawns
+6.4 --> If the amount of tiles is less then 45 but higher than 40 player is moving with the pawn to home if this home position is already occupied with different pawn this pawn cant move there and again all rules apply as decribed in rule 6.3
+6.5 --> player can only move with pawns ranging from 1 through 4, less than or higher than that is not allowed thus will not be performed
+6.6 --> If player attempts illegal move he will be asked to performe different move till the move attempted is classified as legal
+6.7 --> No penalties are applied for attempting illegal moves, player will be just warned about his move legality and asked as of rule 6.6
+6.8 --> Players cant move out of order they can only move in oreder A --> B --> C --> F
+6.9 --> Pawns cant move in oposite direction as is allowed nor can they enter home before going all around the board
+7. Tile rendering will be described below: 
+7.0 --> Tiles are rendered base on which player has the highest amount of pawns on the tile eg. Player A has 2 pawns and player B has 3 pawns on this tile thus the tile wille be rendere as B 
+7.1 --> all pawns that are on the tile will be there only what is rendered will be changed nothing elese
+7.2 --> If no pawns are currently located on the tile it will be rendered as --> * <--
+7.3 --> Upon pawn getting on home tile represented as --> D <-- it will change its representation and will be rendered A, B, C or F depending on which players pawn it is
